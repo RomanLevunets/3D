@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Старт</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="header-left">
+            <p>abenteuer und reisen</p>
+        </div>
+        <div class="header-right">
+            <form action="/" class="form-header">
+                <button name="prev" id="prev"></button>
+                <button name="next" id="next"></button>
+                <button name="export" id="export">Export</button>
+                <button name="save" id="save">SAVE</button>
+            </form>
+        </div>
+    </header>
+    <div class="sub-header">
+        <p>Ausgabe <span>07/2017</span></p>
+    </div>
+    <div class="main clearfix">
+        <div class="main-left">
+            <div class="main-bottom clearfix">
+                <p>visio<span>paper</span></p>
+                <div class="scale">
+                    <form action="/">
+                        <button name="reduce" id="reduce">-</button>
+                        <label for="bot-scale">
+                            <input type="text" name="bot-scale" id="bot-scale" value="100%">
+                        </label>
+                        <button name="increase" id="increase">+</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <aside class="main-right">
+            <ul class="tabs">
+                <li class="active">Settings</li>
+                <li>Layer</li>
+                <li>Upload</li>
+            </ul>
+            <div class="layout">
+                <p>Layout</p>
+                <form action="/" class="form-layout">
+                    <div class="form-item">
+                        <label for="scale">Scale</label>
+                        <input type="text" name="scale" id="scale">
+                    </div>
+                    <div class="form-item position">
+                        <span>Position</span>
+                        <label for="positionX">
+                            <input type="text" name="positionX" id="positionX">
+                        </label>
+                        <label for="positionY">
+                            <input type="text" name="positionY" id="positionY">
+                        </label>
+                        <label for="positionZ">
+                            <input type="text" name="positionZ" id="positionZ">
+                        </label>
+                    </div>
+                    <div class="form-item rotation">
+                        <span>Rotation</span>
+                        <label for="rotationX">
+                            <input type="text" name="rotationX" id="rotationX">
+                        </label>
+                        <label for="rotationY">
+                            <input type="text" name="rotationY" id="rotationY">
+                        </label>
+                        <label for="rotationZ">
+                            <input type="text" name="rotationZ" id="rotationZ">
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="action">
+                <p>Action</p>
+                <form action="/" class="form-action">
+                    <label for="select-action" class="action-select">
+                        <select name="select-action" id="select-action" class="select-action">
+                            <option>item1</option>
+                            <option>item2</option>
+                            <option>item3</option>
+                            <option>item4</option>
+                        </select>
+                    </label>
+                    <label for="link" class="link-select">
+                        <input type="text" name="link" id="link">
+                    </label>
+                </form>
+            </div>
+            <div class="animation">
+                <p>Animation</p>
+                <form action="/" class="form-animation">
+                    <label for="select-animation" class="animation-select">
+                        <select name="select-animation" id="select-animation" class="select-animation">
+                            <option>animation1</option>
+                            <option>animation2</option>
+                            <option>animation3</option>
+                            <option>animation4</option>
+                        </select>
+                    </label>
+                </form>
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<link href="css/libs.min.css" rel="stylesheet" property=stylesheet type="text/css">
+<link href="css/main.css" rel="stylesheet" property=stylesheet type="text/css">
+<script type="text/javascript" src="js/libs.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>
+
